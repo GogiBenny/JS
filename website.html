@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML CSS Review</title>
+    <style>
+      .red-button {
+        background-color: red;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button 
+      title="tooltip" 
+      class="red-button" 
+      onclick="
+        (function() {
+          console.log('hello world!');
+        })();
+      "
+    >
+      Hello World!
+    </button>
+    <script>
+      // This is a comment. duh
+      // alert('hello world ~ from an alert');
+      console.log('hello world! ~ from thes script tag');
+    </script>
+  </body>
+</html>
